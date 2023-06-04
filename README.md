@@ -2,7 +2,7 @@
 
 Projeto feito para desafio proposto da empresa rocketseat.
 
-## Installation
+## Instalação
 
 Para executar o projeto locamente.
 
