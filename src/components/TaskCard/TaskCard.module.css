@@ -1,0 +1,80 @@
+.container {
+  width: 736px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: var(--gray-500);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.labelChecbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.labelChecbox span {
+  color: var(--gray-100);
+}
+
+.labelChecbox input:checked + span {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.labelChecbox input {
+  width: 17.45px;
+  height: 17.45px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid var(--blue);
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.labelChecbox input:hover {
+  border-color: var(--blue-dark);
+  background-color: #10212a;
+}
+
+.labelChecbox input:checked {
+    background: transparent url("/checked.png") no-repeat center; 
+    background-color: var(--purple-dark);
+    border: none;
+}
+
+.labelChecbox input:checked:hover {
+    background-color: var(--purple);
+}
+
+.trashContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+}
+
+.trashContainer:hover {
+    border-radius: 4px;
+    background-color: var(--gray-400);
+}
+
+.trash {
+    color: var(--gray-300);
+    width: 14px;
+    height: 14px;
+  }
+
+.trash:hover {
+    color: var(--danger);
+}
