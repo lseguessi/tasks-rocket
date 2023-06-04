@@ -28,4 +28,4 @@ Prints:
 ![Foto da aplicação com uma lista de tarefas vazia](https://imageup.me/images/c775d5eb-b64b-4cc0-a6c0-019b8cb36191.png)
 
 Aplicação com tarefas inseridas:
-![Foto da aplicação com uma lista de tarefas vazia](https://imageup.me/images/b4c54ff4-bb64-4dad-a5f6-4f239e0079f6.png)
+![Foto da aplicação com uma lista de tarefas preenchida](https://imageup.me/images/b4c54ff4-bb64-4dad-a5f6-4f239e0079f6.png)
